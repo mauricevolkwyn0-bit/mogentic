@@ -26,9 +26,7 @@ export function Hero() {
 
 					<Reveal>
 						<p className="hero-sub">
-							Mogentic deploys AI agents that handle your content, SEO,
-							social media, and growth strategy — 24/7 — so your business
-							scales without hiring.
+							Mogentic deploys AI agents that run your content, SEO, and growth — 24/7 — so your business scales without hiring.
 						</p>
 					</Reveal>
 
@@ -37,7 +35,7 @@ export function Hero() {
 
 					<Reveal>
 						<p className="hero-trust">
-							Built for businesses scaling beyond $50k/month
+							No commitment. See exactly how it works.
 						</p>
 					</Reveal>
 

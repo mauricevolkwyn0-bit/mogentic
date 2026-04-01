@@ -7,7 +7,7 @@ export function HeroInteractive() {
 
   return (
     <button className="hero-cta" onClick={openModal}>
-      Book a Demo&nbsp;&nbsp;
+      See Your AI Growth System&nbsp;&nbsp;
       <span className="hero-cta-badge">Limited Onboarding</span>
     </button>
   );
