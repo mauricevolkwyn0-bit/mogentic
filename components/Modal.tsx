@@ -51,7 +51,7 @@ function CountrySelector({ value, onChange }: { value: string, onChange: (v: str
                 <div className="cs-options">
                     {CC.map((c) => (
                         <button
-                            key={c.iso}
+                            key={c.code}
                             type="button"
                             className={`cs-option ${c.code === value ? 'active' : ''}`}
                             onClick={() => {
