@@ -19,7 +19,10 @@ function Nav() {
           style={{ objectFit: "contain" }}
         />
       </div>
-      <button className="nav-btn" onClick={openModal}>Join Waitlist</button>
+      <div className="nav-actions">
+        <button className="nav-btn" onClick={openModal}>Join Waitlist</button>
+        <button className="nav-btn nav-btn--black" onClick={openModal}>Sign Up</button>
+      </div>
     </nav>
   );
 }

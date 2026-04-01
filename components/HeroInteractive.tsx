@@ -7,7 +7,8 @@ export function HeroInteractive() {
 
   return (
     <button className="hero-cta" onClick={openModal}>
-      Apply for Access&nbsp;&nbsp;<span className="hero-cta-badge">FOUNDING MEMBER</span>
+      Book a Demo&nbsp;&nbsp;
+      <span className="hero-cta-badge">Limited Onboarding</span>
     </button>
   );
 }
